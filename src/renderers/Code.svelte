@@ -1,6 +1,8 @@
 <script>
+  import { HighlightAuto } from "svelte-highlight";
+
   export let lang
   export let text
 </script>
 
-<pre class={lang}><code>{text}</code></pre>
+<HighlightAuto code={text} />

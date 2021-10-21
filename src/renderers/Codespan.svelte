@@ -1,5 +1,6 @@
 <script>
+  import { HighlightAuto } from "svelte-highlight";
   export let raw
 </script>
 
-<code>{raw.replace(/`/g, '')}</code>
+<HighlightAuto code={raw.replace(/`/g, '')} />
