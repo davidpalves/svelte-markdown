@@ -1,5 +1,5 @@
 <script>
-  import { Highlight } from "svelte-highlight";
+  import { HighlightAuto } from "svelte-highlight";
   import python from "svelte-highlight/src/languages/python";
   import atlas from "svelte-highlight/src/styles/atlas";
 
@@ -13,4 +13,4 @@
 </svelte:head>
 
 
-<Highlight code="{text}" language={python}/>
+<HighlightAuto code="{text}"/>
