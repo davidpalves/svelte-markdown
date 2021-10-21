@@ -1,5 +1,5 @@
 <script>
-  import { HighlightAuto } from "svelte-highlight";
+  import { Highlight } from "svelte-highlight";
   import atlas from "svelte-highlight/src/styles/atlas";
 
   export let lang
@@ -12,4 +12,4 @@
 </svelte:head>
 
 
-<HighlightAuto code={text} language={lang}/>
+<Highlight code="{text}" language="{lang}"/>
